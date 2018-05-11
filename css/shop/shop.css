@@ -1,0 +1,991 @@
+.shop .container-our .shop-content .container>header {
+    padding: 80px 0 50px;
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.shop .container-our .shop-content .container>header>div:not(:last-of-type) {
+    width: 25%;
+    padding: 0 15px
+}
+
+.shop .container-our .shop-content .container>header>div:nth-of-type(2) {
+    width: 75%
+}
+
+.shop .container-our .shop-content .container>header>.Filters {
+    text-align: right
+}
+
+.shop .container-our .shop-content .container>header .Showing form {
+    overflow: hidden;
+    width: auto
+}
+
+.shop .container-our .shop-content .container>header .Showing form input[type=search] {
+    height: 50px;
+    border: 1px solid #e8e8e8;
+    border-right: 0;
+    color: #8f8f8f;
+    -webkit-width: calc(80% - 50px);
+    -moz-width: calc(80% - 50px);
+    width: calc(100% - 50px);
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    padding: 0 23px
+}
+
+.shop .container-our .shop-content .container>header .Showing .border-search input[type=search] {
+    border: 1px solid #4f4f4f
+}
+
+.shop .container-our .shop-content .container>header .Showing form input[type=search]::placeholder {
+    font-size: 15px;
+    letter-spacing: .5px
+}
+
+.shop .container-our .shop-content .container>header .Showing form .submit {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-color: #3e3e3e
+}
+
+.shop .container-our .shop-content .container>header .Showing form .submit:hover {
+    background-color: #616161
+}
+
+.shop .container-our .shop-content .container>header .Showing form .submit input[type=submit] {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    cursor: pointer;
+    opacity: 0;
+    position: relative;
+    z-index: 5
+}
+
+.shop .container-our .shop-content .container>header .Showing form .submit:before {
+    position: absolute;
+    content: "\e618";
+    display: block;
+    font-family: Pe-icon-7-stroke;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1;
+    transform: translate(-50%, -50%)
+}
+
+.shop .container-our .shop-content .container>header>.Filters p {
+    line-height: 50px;
+    color: #8f8f8f;
+    font-size: 15px
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div select {
+    display: none
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .nice-select {
+    width: 230px;
+    font-size: 13px;
+    color: #3e3e3e;
+    border: 1px solid #e1e1e1;
+    border-radius: 0
+}
+
+.nice-select.open,
+.nice-select:active,
+.nice-select:focus {
+    border-color: #999
+}
+
+.nice-select:after {
+    border-color: #b8b8b8
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .Filters {
+    float: left;
+    height: 42px;
+    line-height: 42px
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .Filters ul {
+    overflow: hidden;
+    padding: 0 0 0 40px
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .Filters ul .btn-switcher:before {
+    content: "\f453";
+    font-family: ionicons;
+    font-size: 30px;
+    color: #8f8f8f;
+    cursor: pointer
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .Filters ul .btn-view-grid:before {
+    content: "\f13f";
+    font-family: ionicons;
+    font-size: 30px;
+    color: #8f8f8f;
+    cursor: pointer
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .Filters ul li:first-of-type {
+    font-size: 14px;
+    margin: 0
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .Filters ul li {
+    margin: 0 0 0 24px
+}
+
+.shop .container-our .shop-content .container>header>.Filters>div>div .Filters ul li.active:before {
+    color: #3e3e3e
+}
+
+@media (max-width:480px) {
+    .shop .container-our .shop-content .container>header>.Filters>div>div .Filters {
+        display: none
+    }
+    .shop .container-our .shop-content .container>header>.Filters>div>div .nice-select {
+        width: 100%
+    }
+}
+
+@media (max-width:767px) {
+    .shop .container-our .shop-content .container>header>.Filters {
+        width: 100%!important
+    }
+    .shop .container-our .shop-content .container>header>.Filters>div,
+    .shop .container-our .shop-content .container>header>.Filters>div>div {
+        width: 100%
+    }
+    .shop .container-our .shop-content .container>header>.Filters>div>div .Filters {
+        float: right
+    }
+    .shop .container-our .shop-content .container>header>.Filters>div>div .Filters ul {
+        padding: 0
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .shop .container-our .shop-content .container>header>div:first-of-type {
+        width: 35%
+    }
+    .shop .container-our .shop-content .container>header>div:nth-of-type(2) {
+        width: 75%
+    }
+    .shop .container-our .shop-content .container>header .Filters p {
+        font-size: 13px
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .shop .container-our .shop-content .container>header .Showing form {
+        width: 100%
+    }
+    .shop .container-our .shop-content .container>header .Showing form input[type=search] {
+        -webkit-width: calc(80% - 50px);
+        -moz-width: calc(80% - 50px);
+        width: calc(100% - 50px)
+    }
+}
+
+.shop .container-our .shop-content .container .shop-inset {
+    overflow: hidden;
+    padding-bottom: 120px;
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside {
+    width: 25%;
+    padding: 0 15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product {
+    width: 75%;
+    padding: 0 15px;
+    position: relative
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside.active-product {
+    display: block
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .inset-aside {
+    width: 100%;
+    padding-bottom: 15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .inset-aside h4 {
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #3e3e3e
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .inset-aside>ul li {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    padding: 12px 0 0
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .inset-aside>ul li>a {
+    display: inline-block;
+    color: #8f8f8f;
+    font-size: 14px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .inset-aside>ul li>a:hover {
+    color: #3e3e3e
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .inset-aside>ul li>.count {
+    color: #8f8f8f;
+    font-size: 15px;
+    padding: 0 6px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .inset-aside>ul li>a:hover+.count {
+    background-color: #e8e8e8;
+    color: #3e3e3e
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .size {
+    width: 100%;
+    padding: 30px 0 15px
+}
+
+.title-aside {
+    font-size: 16px;
+    color: #3e3e3e;
+    font-weight: 400
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .size .size-ul {
+    padding-top: 15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .size .size-ul li {
+    display: inline-block;
+    background-color: #f3f3f3;
+    min-width: 77px;
+    padding: 3px 5px;
+    border-radius: 50px;
+    margin: 0 5px 5px 0;
+    position: relative;
+    overflow: hidden
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .size .size-ul li a {
+    color: #8f8f8f;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 9px 5px 7px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .size .size-ul li a:hover {
+    color: #3e3e3e
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .size .size-ul li .count {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    background-color: #d6d6d6;
+    color: #3e3e3e;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .size .size-ul li:hover .count {
+    background-color: #cbcbcb
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .Popular-Tags {
+    padding-top: 25px
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .Popular-Tags .tagcloud,
+.shop .container-our .shop-content .container .shop-inset>aside .Popular-Tags .tagcloud a {
+    display: inline-block;
+    font-size: 14px;
+    color: #8f8f8f
+}
+
+.shop .container-our .shop-content .container .shop-inset>aside .Popular-Tags h4 {
+    padding-bottom: 15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside {
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 30px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product {
+    width: 33.33333333%;
+    padding: 0 15px;
+    margin-bottom: 43px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside {
+    width: 100%
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out {
+    position: relative;
+    overflow: hidden
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.img {
+    display: block;
+    width: 100%;
+    position: relative
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.img>img {
+    width: 100%;
+    height: 110%;
+    display: block
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.img>.img-hover {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-1 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-mikiya-ulivo-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-2 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-mikiya-horison-chair-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-3 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-gallery3_86971c97-a606-484d-8a06-8fbf2ccf8f6a-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-4 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-1-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-5 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-2-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-6 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-3-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-7 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-4-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-8 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-5-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-9 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-6-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-10 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-mikiya-arper-table-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-11 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-3-2-3-370x3701.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .img-hover-12 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-4-2-3-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out:hover>.img>.img-hover {
+    opacity: 1
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product {
+    background-color: #fff;
+    position: absolute;
+    top: -70%;
+    -webkit-transition: top .5s ease;
+    -moz-transition: top .5s ease;
+    -o-transition: top .5s ease;
+    transition: top .5s ease;
+    right: 0
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out:hover>.social-product {
+    top: 0
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li {
+    position: relative
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li>a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: #fff;
+    transform: translateY(-100px)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li:first-of-type>a {
+    -webkit-transition: .5s .3s;
+    -moz-transition: .5s .3s;
+    -p-transition: .5s .3s;
+    transition: .5s .3s
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li:nth-of-type(2)>a {
+    -webkit-transition: .5s .2s;
+    -moz-transition: .5s .2s;
+    -p-transition: .5s .2s;
+    transition: .5s .2s
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li:nth-of-type(3)>a {
+    -webkit-transition: .6s .1s;
+    -moz-transition: .6s .1s;
+    -p-transition: .6s .1s;
+    transition: .6s .1s
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out:hover>.social-product>li>a {
+    transform: translateY(0)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li>a:before {
+    content: "\f442";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Ionicons;
+    font-size: 22px;
+    color: #333
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li:nth-of-type(2)>a:before {
+    content: "\f424"
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li:last-of-type>a:before {
+    content: "\f3f7"
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li>ul {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    cursor: pointer;
+    padding: 0 12px;
+    border-radius: 50px;
+    background-color: #333;
+    -webkit-transform: translateY(-50%) translateX(-125%);
+    -moz-transform: translateY(-50%) translateX(-125%);
+    -o-transform: translateY(-50%) translateX(-125%);
+    -ms-transform: translateY(-50%) translateX(-125%);
+    transform: translateY(-50%) translateX(-125%);
+    opacity: 0;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    -webkit-visibility: hidden;
+    visibility: hidden;
+    white-space: nowrap
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li:hover>ul {
+    -webkit-transform: translateY(-50%) translateX(-109%);
+    -moz-transform: translateY(-50%) translateX(-109%);
+    -o-transform: translateY(-50%) translateX(-109%);
+    -ms-transform: translateY(-50%) translateX(-109%);
+    transform: translateY(-50%) translateX(-109%);
+    opacity: 1;
+    visibility: visible
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product>li>ul>li {
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: #333;
+    color: #fff
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content {
+    padding-top: 24px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content h4>a {
+    display: inline-block;
+    color: #3e3e3e;
+    font-weight: 400;
+    font-size: 14px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content h4>a:hover {
+    color: #8f8f8f
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content .price {
+    color: #8f8f8f;
+    font-size: 15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content .price .sale {
+    padding-left: 5px;
+    color: #8f8f8f;
+    text-decoration: line-through
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content .color-product {
+    overflow: hidden;
+    padding-top: 12px;
+    padding-bottom: 10px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content .color-product li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 7px;
+    position: relative;
+    cursor: pointer
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content .color-product li:before {
+    content: "";
+    top: -6px;
+    position: absolute;
+    border-radius: 50%;
+    left: -6px;
+    width: 25px;
+    display: inline-block;
+    height: 25px;
+    border: 1px solid #ccc;
+    opacity: 0;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.p-content .color-product li.active:before {
+    opacity: 1
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside .p-content .add,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside .p-content p {
+    display: none
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside .p-content .add,
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside .p-content p {
+    display: block
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product {
+    width: 100%
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.img-out {
+    width: 35%;
+    float: left;
+    margin-right: 30px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.p-content {
+    -webkit-width: calc(65% - 35px);
+    -moz-width: calc(65% - 35px);
+    width: calc(65% - 35px);
+    float: left;
+    padding-top: 10px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.p-content h4>a {
+    font-size: 20px;
+    margin-bottom: 15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.p-content .price {
+    font-size: 24px;
+    margin-bottom: 24px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.p-content p {
+    font-size: 14px;
+    margin-bottom: 35px;
+    color: #8f8f8f
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside .p-content .add {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #3e3e3e;
+    font-size: 15px;
+    color: #fff
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside .p-content .add:hover {
+    background-color: #5e5e5e
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.p-content .color-product {
+    margin-top: -15px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-1 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-5-2-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-2 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-6-2-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-3 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-7-2-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-4 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-8-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-5 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro48-thumb1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-10 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-11 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-6 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-7 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-8 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-2-hover-9 .product-aside>.img-out>.img>.img-hover {
+    display: none
+}
+
+,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-1 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-2 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-3 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-4 .product-aside>.img-out>.img>.img-hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-5 .product-aside>.img-out>.img>.img-hover {
+    display: none
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-6 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-1-2-1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-7 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-1-2-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-8 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-3-2-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-9 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-4-2-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-10 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-5-2-3-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-3-hover-11 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-6-2-3-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-1 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-2-2-1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-2 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-4-2-1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-3 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-5-2-1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-4 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-7-2-3-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-5 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro2-thumb2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-6 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro3-thumb1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-7 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro9-thumb3-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-8 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-7-2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-9 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro19-thumb1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-10 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro13-thumb4-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-4-hover-11 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro1-thumb2-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-1 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro11-thumb5-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-2 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro10-thumb6-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-3 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro15-thumb1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-4 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro12-thumb1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-5 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-7-2-1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-6 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro34-thumb3-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-7 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro4-thumb5-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-8 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro5-thumb1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-9 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro6-thumb1-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .products .img-5-hover-10 .product-aside>.img-out>.img>.img-hover {
+    background-image: url(../../images/shop/1-pro8-thumb4-370x370.jpg)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control {
+    width: 100%;
+    overflow: hidden;
+    position: static
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control>ol {
+    overflow: hidden
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li {
+    display: inline-block;
+    margin: 0 5px
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li>a,
+.shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li>span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #8f8f8f;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 50%
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li.active>a,
+.shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li.active>span {
+    background-color: #3e3e3e;
+    color: #fff
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control .next-product,
+.shop .container-our .shop-content .container .shop-inset>.content-product .control .prev-product {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    position: relative;
+    color: #8f8f8f
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control .next-product:hover,
+.shop .container-our .shop-content .container .shop-inset>.content-product .control .prev-product:hover {
+    color: #3e3e3e
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control .next-product:before,
+.shop .container-our .shop-content .container .shop-inset>.content-product .control .prev-product:before {
+    content: "\f3d5";
+    font-family: ionicons;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 20px;
+    transform: translate(-50%, -50%)
+}
+
+.shop .container-our .shop-content .container .shop-inset>.content-product .control .next-product:before {
+    content: "\f3d6"
+}
+
+@media (max-width:480px) {
+    .shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.img-out,
+    .shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product .product-aside>.p-content {
+        width: 100%;
+        float: none
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product,
+    .shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product,
+    .shop .container-our .shop-content .container>header>div:nth-of-type(2) {
+        width: 100%
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product {
+        top: -95%
+    }
+    .shop .container-our .shop-content .container .shop-inset {
+        -webkit-display: flex;
+        -moz-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product {
+        -webkit-order: 1;
+        -moz-order: 1;
+        order: 1
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product .control .next-product,
+    .shop .container-our .shop-content .container .shop-inset>.content-product .control .prev-product,
+    .shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li>a,
+    .shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li>span {
+        width: 30px;
+        height: 30px
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li>a,
+    .shop .container-our .shop-content .container .shop-inset>.content-product .control>ol>li>span {
+        line-height: 30px
+    }
+    .shop .container-our .shop-content .container .shop-inset>aside {
+        -webkit-order: 2;
+        -moz-order: 2;
+        order: 2;
+        width: 100%;
+        padding-top: 60px
+    }
+    .shop .container-our .shop-content .container>header .Showing form {
+        display: block;
+        margin-bottom: 30px
+    }
+    .shop .container-our .shop-content .container>header .Showing form,
+    .shop .container-our .shop-content .container>header>div:not(:last-of-type) {
+        width: 100%
+    }
+}
+
+@media (min-width:481px) and (max-width:991px) {
+    .shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product:nth-of-type(2n+3) {
+        clear: both
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product {
+        width: 50%
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product,
+    .shop .container-our .shop-content .container .shop-inset>.content-product .row-product .product,
+    .shop .container-our .shop-content .container>header .Showing form,
+    .shop .container-our .shop-content .container>header>div:not(:last-of-type),
+    .shop .container-our .shop-content .container>header>div:nth-of-type(2) {
+        width: 100%
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product .product-aside>.img-out>.social-product {
+        top: -95%
+    }
+    .shop .container-our .shop-content .container .shop-inset {
+        -webkit-display: flex;
+        -moz-display: flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .shop .container-our .shop-content .container .shop-inset>.content-product {
+        -webkit-order: 1;
+        -moz-order: 1;
+        order: 1
+    }
+    .shop .container-our .shop-content .container .shop-inset>aside {
+        -webkit-order: 2;
+        -moz-order: 2;
+        order: 2;
+        width: 100%;
+        padding-top: 60px
+    }
+    .shop .container-our .shop-content .container>header .Showing form {
+        display: block;
+        margin-bottom: 30px
+    }
+}
+
+@media (min-width:992px) {
+    .shop .container-our .shop-content .container .shop-inset>.content-product .products-aside .product:nth-of-type(3n+4) {
+        clear: both
+    }
+}
