@@ -9,7 +9,7 @@
 </div>
 <p>
 © 2017 Fashion. All Rights Reserved.<br>
-Designed Mostafa Abdel Maaboud.
+
 </p>
 <ul class=social-footer>
 <li class=float-left-jq><a href="#" class=transition3></a></li>
