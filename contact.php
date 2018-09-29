@@ -1056,13 +1056,13 @@ alone, and is designed to span the seasons.</p></div>
 <ul class=email-fix>
 <li>
 <span>Email:</span><a href="https://www.facebook.com/mostafa.karknde">
-mostafakarkande@yahoo.com
+Example@yahoo.com
 </a>
 </li>
 <li>
 <span>Website:</span>
-<a href="http://watch-store.bitballoon.com/">
-http://watch-store.bitballoon.com/
+<a href="https://fashion-plus.herokuapp.com/">
+https://fashion-plus.herokuapp.com/
 </a>
 </li>
 </ul>
@@ -1070,10 +1070,10 @@ http://watch-store.bitballoon.com/
 <span class=phone-hoti>(+01) 202 345 6789</span>
 <ul class=phone>
 <li>
-<span>Phone:</span><a href="https://www.facebook.com/mostafa.karknde">01125686230</a>
+<span>Phone:</span><a href="https://fashion-plus.herokuapp.com/">055-88-99-66</a>
 </li>
 <li>
-<span>Website:</span><a href="http://watch-store.bitballoon.com/">(+01) 202 345 6787</a>
+<span>Website:</span><a href="https://fashion-plus.herokuapp.com/">(+050) 225 3578 787</a>
 </li>
 </ul>
 </div>

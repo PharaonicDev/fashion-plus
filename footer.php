@@ -8,7 +8,9 @@
 <img src="images/home/logo.png" alt="sorry browser not allowed image"/>
 </div>
 <p>
-© 2017 Fashion. All Rights Reserved.<br>
+&copy; 2017 -
+<?php  echo date("Y");?>
+ Fashion. All Rights Reserved.<br>
 
 </p>
 <ul class=social-footer>
